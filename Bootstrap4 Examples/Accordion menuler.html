@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="ss.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div style="margin-top: 20px" class="container">
+
+    <button type="button" data-toggle="collapse" data-target="#kursac"  class="btn btn-success">Collaps aç/kapa</button>
+    
+    <div class="collapse mt-4" id="kursac">
+        
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, quia dolorem eligendi nam esse dicta totam reiciendis mollitia porro consequuntur adipisci molestiae ullam error iusto. Eveniet fugiat quidem facere molestias.</p>
+        <img src="https://im.haberturk.com/2018/09/25/ver1537886445/2156074_810x458.jpg" alt="">
+    </div>
+
+    <br>
+    <br>
+
+    <h4>Accordion Collapse</h4>
+    <hr>
+    <div id="accordion">
+
+        <div class="card">
+            <div class="card-header">
+                <h5>
+                    <a data-toggle="collapse" href="#ac1">1.Satırı Aç</a>
+                </h5>
+            </div>
+
+            <div id="ac1" class="collapse">
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad quos, nisi dicta nobis odio modi labore repellat fugit provident, veniam inventore temporibus officia natus dolores iure ut ex consequatur consectetur?</p>
+                    <img src="https://i.ytimg.com/vi/MzUqjie-L8c/maxresdefault.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h4>Sayfalama Pagination</h4>
+    <hr>
+
+    <ul class="pagination">
+        <li class="page-item"><a href="#" class="page-link">Geri</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">4</a></li>
+        <li class="page-item"><a href="#" class="page-link">İleri</a></li>
+    </ul>
+
+    <ul class="pagination justify-content-center">
+        <li class="page-item"><a href="#" class="page-link">Geri</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">4</a></li>
+        <li class="page-item"><a href="#" class="page-link">İleri</a></li>
+    </ul>
+
+    <ul class="pagination justify-content-end">
+        <li class="page-item"><a href="#" class="page-link">Geri</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">4</a></li>
+        <li class="page-item"><a href="#" class="page-link">İleri</a></li>
+    </ul>
+
+    <h4>Açılır Kutular/Modallar</h4>
+    <hr>
+
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal1">Modal aç</button>
+
+    <div class="modal fade" id="modal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal Başlık</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti quis dolore repellat culpa neque minus, odio officia at quibusdam magni nihil, numquam autem sit distinctio nisi. Autem quod voluptas explicabo.
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success">Kaydet</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Vazgeç</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+
+    <h4>Modal Form Özellikleri</h4>
+
+
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal2">Modal aç</button>
+
+    <div class="modal fade" id="modal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal Başlık</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="form-control-label" for="">Adınız</label>
+                        <input type="text" class="form-control" placeholder="Adınız">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-control-label" for="">Soyadınız</label>
+                        <input type="text" class="form-control" placeholder="Soyadınız">
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success">Kaydet</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Vazgeç</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+
+    <h4>Buton Açıklama Metinleri</h4>
+    <br>
+
+    <button type="button" class="btn btn-success" data-toggle="popover" data-placement="top" data-content="Lorem sdfsdfdsflkjsdfsdlkfsdlkfjsdlkfjsdklfjlkdsfjlkdsfjldskfjkldsfdslkfjsdkldsdfsdfdsflkjsdfsdlkfsdlkfjsdlkfjsdklfjlkdsfjlkdsfjldskfjkldsfdslkfjsdkldsdfsdfdsflkjsdfsdlkfsdlkfjsdlkfjsdklfjlkdsfjlkdsfjldskfjkldsfdslkfjsdkldsdfsdfdsflkjsdfsdlkfsdlkfjsdlkfjsdklfjlkdsfjlkdsfjldskfjkldsfdslkfjsdkld">Popover aç</button>
+    <button type="button" class="btn btn-success" data-toggle="popover" data-placement="right" data-content="Lorem sdfsdfdsflkjsdfsdlkfsdlkfjsdlkfjsdklfjlkdsfjlkdsfjldskfjkldsfdslkfjsdkldsdfsdfdsflkjsdfsdlkfsdlkfjsdlkfjsdklfjlkdsfjlkdsfjldskfjkldsfdslkfjsdkldsdfsdfdsflkjsdfsdlkfsdlkfjsdlkfjsdklfjlkdsfjlkdsfjldskfjkldsfdslkfjsdkldsdfsdfdsflkjsdfsdlkfsdlkfjsdlkfjsdklfjlkdsfjlkdsfjldskfjkldsfdslkfjsdkld">Popover aç</button>
+
+    <hr>
+    <br>
+    <h4>Slider / Carousel</h4>
+    <br>
+    <hr>
+
+    <div id="kontrol" class="carousel slide col-md-8" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#kontrol" data-slide-to="0" class="active"></li>
+            <li data-target="#kontrol" data-slide-to="1"></li>
+            <li data-target="#kontrol" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://im.haberturk.com/2018/09/25/ver1537886445/2156074_810x458.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="https://im.haberturk.com/2018/09/25/ver1537886445/2156074_810x458.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="https://im.haberturk.com/2018/09/25/ver1537886445/2156074_810x458.jpg" alt="">
+            </div>
+        </div>
+        <a href="#kontrol" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span></a>
+
+        <a href="#kontrol" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span></a>
+    </div>
+
+</div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript">
+
+    $(document).ready(function(){
+
+        $("#modal2").modal('show');
+        $('[data-toggle="popover"]').popover();
+    });
+
+    </script>
+
+
+  </body>
+</html>
